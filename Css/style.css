@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ===========================
+    header part start
+    ========================== */
+.header {
+   background: #8bc337;
+   text-align: right;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;  
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    
+}
+
+.header ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header ul {
+    margin-right: 50px;
+}
+
+
+
+/* ===========================
+    header part End
+    ========================== */
+
+/* ===========================
+    nav part start
+    ========================== */
+
+nav .logo {
+    width: 25%;
+    float: left;
+}
+
+nav .logo img {
+    width: 220px;
+    margin-left: 33px;
+    height: 65px;
+}
+
+nav .menu {
+    width: 55%;
+    float: left;
+}
+
+nav .menu ul li {
+    display: inline-block;
+    margin: 42px 16px 21px; 
+}
+
+nav .menu ul li a {
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;  
+}
+
+nav .menu ul li a:hover {
+    color: blue;
+}
+nav .item {
+    width: 20%;
+    height: 100px;
+    float:left;
+}
+
+nav .item img {
+    margin: 36px;
+}
+
+
+/* ===========================
+    nav part End
+    ========================== */
+
+.slide img {
+    width: 100%;
+}
+
+.title h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.title h3::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    background: #000;
+    margin-left: -90px;
+    border-radius: 20px;
+
+
+
+}
+
+/* ===========================
+    products part start
+    ========================== */
+
+#p_categorise {
+    width: 100%;
+    margin: 5px 0;
+    height: 600px;
+}
+
+.p_top {
+    width: 100%;
+    height: 250px;
+}
+
+#p_categorise img {
+    height: 150px;
+}
+
+.p_top .product_one {
+    width: 15%;
+    float: left;
+    margin: 9px;
+    text-align: center;
+}
+
+.p_top .product_two {
+    width: 15%;
+    float: left;
+    margin: 9px;
+    text-align: center;
+}
+
+.p_top .product_three {
+    width: 15%;
+    float: left;
+    margin: 9px;
+    text-align: center;
+}
+
+.p_top .product_four {
+    width: 15%;
+    float: left;
+    margin: 9px;
+    text-align: center;
+}
+
+.p_top .product_five {
+    width: 15%;
+    float: left;
+    margin: 9px;
+    text-align: center;
+}
+
+.p_top .product_six {
+    width: 15%;
+    float: left;
+    margin:9px;
+    text-align: center;
+}
+
+.p_buttom {
+    padding-left: 20%;
+}
+
+
+.p_buttom .product_seven{
+    /* width: 25%; */
+    float: left;
+    margin: 20px;
+    text-align: center;
+    
+} 
+
+.p_buttom .prodect_eight {
+    /* width: 25%; */
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.p_buttom .product_nine {
+    /* width: 25%; */
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-title h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    
+} 
+
+.product-title h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+
+
+}
+
+.products{
+    height: 315px;
+    margin: 10px;
+    text-align: center;
+}
+
+.products p{
+    background: #C8E8E4;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.products a {
+
+    background: #83B735;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: inline ;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.products img {
+    height: 242px;
+    background-repeat: no-repeat;
+}
+.products .npone {
+    width: 18%;
+    margin: 5px;
+    float: left;
+}
+ 
+.products .nptwo {
+    width: 18%;
+    margin: 5px;
+    float: left;
+}
+
+.products .npthree {
+    width: 18%;
+    margin: 5px;
+    float: left;
+}
+
+.products .npfour {
+    width: 18%;
+    margin: 5px;
+    float: left;
+}
+
+.products .npfive {
+    width: 18%;
+    margin: 5px;
+    float: left;
+}
+
+#bloge_post {
+    margin-top: 55px;
+    height: 290px;
+
+}
+
+.bloge_one img {
+    height: 220px;  
+   
+}
+
+.bloge_one{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.bloge_two{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.bloge_two img {
+    height: 220px;  
+   
+}
+
+.bloge_three{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.bloge_three img {
+    height: 220px;  
+   
+}
+
+/* =========================================
+        Footer part Start
+============================================*/
+footer {
+    height: 400px;
+    background: #003A1A;
+    color: #fff;
+    margin-bottom: 1px;
+}
+
+
+.footer_one {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.footer_one p {
+    width: 320px;
+    margin: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .icon i {
+    width: 50px;
+}
+
+
+
+.footer_two {
+    width: 20%;
+    float: left;
+}
+
+.footer_two h3 {
+    margin: 15px 0 5px;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+
+.footer_three {
+    width: 20%;
+    float: left;
+
+}
+
+.footer_three ul li {
+    margin: 15px 5px;
+}
+
+.footer_three ul li a {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.footer_four {
+    width: 30%;
+    float: left;
+    
+
+}
+
+.footer_four h3 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    
+}
+
+.footer_four p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    
+
+}
+
+.footer_four input {
+    width: 57%;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: rgb(173, 195, 137);
+    padding: 5px 14px;
+
+    
+}
+
+.footer_four .Su_footer {
+    margin: 21px 57px;
+    width: 35%;
+    height: 35px;
+    
+}
+
+.min_footer {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: #003A1A;
+}
+
+.min_footer .min_footer_left {
+    float: left;
+    width: 50%;
+}
+
+.min_footer .min_footer_left .mfl {
+    margin: 15px;
+}
+
+
+.min_footer .min_footer_right {
+    float: left;
+    width: 50%;
+}
+
+.min_footer .min_footer_right img {
+    width: 650px;
+    height: 34px;
+}
+
+
+.min_footer_left span {
+    padding-left: 40px;
+}
+/* =========================================
+        Footer part End
+============================================*/
