@@ -77,7 +77,7 @@ nav .menu ul li a {
 }
 
 nav .menu ul li a:hover {
-    color: blue;
+    color: rgb(17, 228, 17);
 }
 nav .item {
     width: 20%;
@@ -87,6 +87,7 @@ nav .item {
 
 nav .item img {
     margin: 36px;
+    cursor: pointer;
 }
 
 
@@ -233,7 +234,7 @@ nav .item img {
 }
 
 .products{
-    height: 315px;
+    height: 340px;
     margin: 10px;
     text-align: center;
 }
@@ -300,14 +301,24 @@ nav .item img {
 }
 
 .bloge_one img {
-    height: 220px;  
+    height: 220px;
+    
    
+}
+
+.bloge_one .overlay img  {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: absolute;
 }
 
 .bloge_one{
     width: 30%;
     float: left;
     margin: 20px;
+    position: relative;  
+    
 }
 
 .bloge_two{
@@ -431,7 +442,7 @@ footer .icon i {
 
 .min_footer {
     width: 100%;
-    height: 100px;
+    height: 50px;
     color: #fff;
     background: #003A1A;
 }
@@ -462,4 +473,90 @@ footer .icon i {
 }
 /* =========================================
         Footer part End
+============================================*/
+
+
+
+
+/* =========================================
+        Store location part start
+============================================*/
+.store_titel {
+    background: url(../images/storelocation-title.jpg) no-repeat;
+    height: 120px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    padding-top: 12px;
+
+}
+
+
+.store_titel p {
+    font-size: 14px;
+}
+
+.container {
+    width: 1320px;
+    margin: 10px auto;
+    
+    
+}
+
+
+.body_top_part {
+    height: 60px;
+    width: 100%;
+    background: #F4F3F3;
+    margin: 15px 0;
+    padding-top: 17px;
+}
+
+.body_top_part .location {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+
+.body_top_part input {
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+
+.body_left_part {
+    height: 400px;
+    width: 40%;
+    float: left;
+    overflow: scroll;
+    line-height: 30px;
+}
+.clr {
+    clear: both;
+}
+
+.body_right_part {
+    height: 400px;
+    width: 58%;
+    float: left;
+    margin: 0 10px;
+   
+}
+
+
+.body_left_part ul  li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+/* =========================================
+        Store location part start
 ============================================*/
